@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://frontendliveapp.z19.web.core.windows.net")
+                        .allowedOrigins("https://https://fronendgrupo.z9.web.core.windows.net")
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
 
             }
